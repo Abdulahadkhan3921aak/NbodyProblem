@@ -52,7 +52,7 @@ int InitialiseOpenGL(void)
     }
 
     // Create a windowed mode window and its OpenGL context
-    GLFWwindow *window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    GLFWwindow *window = glfwCreateWindow(640, 480, "NBody Problem", NULL, NULL);
     if (!window)
     {
         std::cerr << "Failed to create GLFW window" << std::endl;

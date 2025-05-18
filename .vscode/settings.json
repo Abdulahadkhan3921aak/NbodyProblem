@@ -3,6 +3,7 @@
         "*.dbclient-js": "javascript",
         "*.embeddedhtml": "html",
         "*.py": "python",
+        "*.sql": "sql",
         "atomic": "cpp",
         "bit": "cpp",
         "cctype": "cpp",
@@ -51,7 +52,10 @@
         "xmemory": "cpp",
         "xstring": "cpp",
         "xtr1common": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "string": "cpp"
     },
     "makefile.configureOnOpen": true
 }
